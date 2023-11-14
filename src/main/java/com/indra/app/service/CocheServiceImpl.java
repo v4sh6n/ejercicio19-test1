@@ -37,12 +37,21 @@ public class CocheServiceImpl implements CocheService {
     }
 }
 
-/*
+/* Capa de Servicio (Service):
  * La clase CocheServiceImpl es un componente de servicio con la anotación @Service.
  * Utiliza la inyección de dependencias para acceder a un CocheRepository.
  * Proporciona métodos para operaciones lógicas relacionadas con coches
  * 
+ * La implementación de CocheServiceImpl proporciona la lógica concreta 
+ * para las operaciones definidas en CocheService. Aquí, estamos utilizando
+ *  CocheRepository para interactuar con la base de datos.
  * 
+ * La capa de servicio contiene la lógica de negocio de la aplicación. 
+ * Aquí, definimos interfaces como CocheService y sus implementaciones, 
+ * como CocheServiceImpl (en el paquete com.indra.app.models.service). 
+ * Los servicios se encargan de realizar operaciones específicas
+ *  relacionadas con los coches, como obtener todos los coches, 
+ *  obtener un coche por su ID, guardar un nuevo coche y eliminar un coche.
  * 
  * 
  */

@@ -63,7 +63,12 @@ public class CocheController {
     }
 }
 
-
+/* Capa de Presentación (Controller):
+ * El controlador CocheController maneja las solicitudes HTTP, 
+ * interactúa con los modelos de datos y llama a los servicios para 
+ * realizar operaciones de negocio.
+ * 
+ */
 
 //    @GetMapping("/eliminar/{id}")
 //    public String eliminarCoche(@PathVariable Long id, RedirectAttributes redirectAttributes) {

@@ -52,14 +52,24 @@ public class Coche {
         this.anioFabricacion = anioFabricacion;
     }
 }
-/*
- * 
+/* Capa de Persistencia (Entity):
+ *  La capa de persistencia contiene las entidades que representan los objetos de 
+ *  dominio de la aplicación. 
+ *  
+ *  Estas entidades se mapean a tablas en la base de datos y contienen los atributos 
+ *  y relaciones que queremos persistir.
+ *  
+ *  
  *  
  *	La clase Coche es una entidad JPA mapeada a una tabla llamada "coches".
  * 	La anotación @Entity indica que la clase es una entidad JPA.
  *	La anotación @Table especifica el nombre de la tabla en la base de datos.
  * 
- * 
+ * La entidad Coche representa la estructura de los datos que queremos 
+ * almacenar en la base de datos. Esta entidad se mapea a la tabla 
+ * "coches" en la base de datos.
+ * Aquí hemos utilizado anotaciones de JPA (@Entity, 
+ * @Table, @Id, @GeneratedValue, etc.) para definir la entidad y sus atributos.
  * 
  * 
  * 
